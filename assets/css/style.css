@@ -1,0 +1,110 @@
+
+ /* .name-logo {
+    margin-right: 20px;
+    position: absolute;
+    margin-top: 0;
+    width: 50%;
+    background-color: green;
+}
+
+.logo {
+    background-color: #4aaaa5;
+    height: 75px;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    float: left; */
+   
+/* }  */
+
+ .content {
+    width: 960px;
+}
+
+.main {
+    width: 650px;
+    float: left;  
+}
+
+.sidebar {
+    width: 270px;
+    float: right;
+   }
+
+li {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+   
+}
+ 
+/* .aboutbox {
+    float:left;
+    background-color: red;
+    width: 50%;
+    
+}
+
+.about {
+    float:left;
+    display: inline;
+    width: 16%;
+}
+
+.portfolio {
+    float:left;
+    display: inline;
+    width: 16%
+}
+
+.contact {
+    float:left;
+    display: inline;
+    width: 16%;
+}
+
+
+li a {
+    display: inline;
+    float: left;
+} 
+
+  
+
+h1 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #f5fafa;
+    
+} */
+
+/* h2 {
+    color: #4aaaa5;
+}
+
+body {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/linedpaper.png");
+    
+}
+
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+*/
+.image {
+    margin-right: 20px;
+    float: left;
+}
+
+footer {
+    background-color: purple;
+    clear: both;
+}  
