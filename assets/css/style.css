@@ -1,12 +1,12 @@
 
- /* .name-logo {
+  .name-logo {
     margin-right: 20px;
     position: absolute;
     margin-top: 0;
     width: 50%;
-    background-color: green;
+    background-color: #4aaaa5;
 }
-
+/*
 .logo {
     background-color: #4aaaa5;
     height: 75px;
@@ -19,46 +19,56 @@
 
  .content {
     width: 960px;
+    padding-left: 30px;
 }
 
 .main {
-    width: 650px;
-    float: left;  
+    width: 645px;
+    float: left;
+    padding-bottom: 40px; 
+    background-color: white;
+    margin-right: 5px
 }
 
 .sidebar {
     width: 270px;
     float: right;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
    }
 
+p {
+    float: right;
+}
+
+.connect {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+/*
 li {
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
+     margin: 0;
+    padding: 0; 
    
-}
- 
-/* .aboutbox {
-    float:left;
-    background-color: red;
-    width: 50%;
-    
 }
 
 .about {
-    float:left;
+    float: right;
     display: inline;
     width: 16%;
 }
 
 .portfolio {
-    float:left;
+    float: right;
     display: inline;
     width: 16%
 }
 
 .contact {
-    float:left;
+    float: right;
     display: inline;
     width: 16%;
 }
@@ -70,17 +80,18 @@ li a {
 } 
 
   
-
+/*
 h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
     color: #f5fafa;
     
-} */
+} 
 
-/* h2 {
+ h2 {
     color: #4aaaa5;
+    border-bottom: 2px solid grey;
 }
-
+*/
 body {
     color: #777777;
     background-color: #ffffff;
@@ -98,13 +109,17 @@ header {
     margin-bottom: 20px;
     width: 100%;
 }
-*/
+/*
 .image {
     margin-right: 20px;
     float: left;
 }
-
+*/
 footer {
-    background-color: purple;
+    background-color: gray;
+    color: white;
+    text-align: center;
     clear: both;
+    padding: 40px;
+    bottom: 0;
 }  
