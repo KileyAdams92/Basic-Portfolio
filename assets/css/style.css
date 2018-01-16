@@ -27,6 +27,7 @@
     width: 960px;
     padding-left: 30px;
     margin-left: 200px;
+    margin: auto;
     /* flex: 1 0 auto; Tried to do sticky footer? This is my 3rd attempt*/
 }
 
@@ -48,7 +49,7 @@
     float: right;
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 60px;
     border: 1px solid gainsboro;
 }
@@ -56,6 +57,7 @@
 p {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
 }
 
 .connect {
@@ -108,6 +110,7 @@ h1 {
     color: #4aaaa5;
     border-bottom: 2px solid gainsboro;
     padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 body {
