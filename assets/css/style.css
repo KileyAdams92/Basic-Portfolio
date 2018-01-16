@@ -2,6 +2,8 @@
   * {
       box-sizing: border-box;
   }
+ 
+
   .name-logo {
     margin-right: 20px;
     position: absolute;
@@ -11,7 +13,7 @@
     padding-right: 0;
 }
 
-/* .logo {
+.logo {
     background-color: #4aaaa5;
     height: 75px;
     width: 50%;
@@ -19,23 +21,26 @@
     margin: 0;
     float: left; 
    
-}   */
+}  
 
  .content {
     width: 960px;
     padding-left: 30px;
     margin-left: 200px;
+    /* flex: 1 0 auto; Tried to do sticky footer? This is my 3rd attempt*/
 }
 
+
 .main {
-    width: 635px;
+    width: 631px;
     float: left;
     padding-bottom: 40px; 
     background-color: white;
     margin-right: 15px;
     margin-top: 60px;
     border: 1px solid gainsboro;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    
 }
 
 .sidebar {
@@ -46,7 +51,7 @@
     padding: 20px;
     margin-top: 60px;
     border: 1px solid gainsboro;
-   }
+}
 
 p {
     padding-left: 20px;
@@ -139,4 +144,5 @@ footer {
     padding: 40px;
     bottom: 0;
     border-top: 5px solid #4aaaa5;
+    width: 100%;
 }  
