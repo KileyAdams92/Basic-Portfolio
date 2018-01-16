@@ -50,6 +50,8 @@
 
 p {
     float: right;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .connect {
@@ -65,32 +67,32 @@ li {
     float: right;
    
 }
-/*
+
 .about {
     float: right;
-    display: inline;
+    display: block;
     width: 16%;
 }
 
 .portfolio {
     float: right;
-    display: inline;
+    display: block;
     width: 16%
 }
 
 .contact {
     float: right;
-    display: inline;
+    display: block;
     width: 16%;
 }
 
 
 li a {
-    display: inline;
+    display: block;
     float: left;
 } 
 
- */ 
+ 
 
 h1 {
     font-family: "Georgia", Times, "Times New Roman", serif;
@@ -101,6 +103,7 @@ h1 {
  h2 {
     color: #4aaaa5;
     border-bottom: 2px solid gainsboro;
+    padding-left: 20px;
 }
 
 body {
@@ -109,7 +112,6 @@ body {
     border-color: #dddddd;
     font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
     background-image: url("../images/linedpaper.png");
-    
 }
 
 
@@ -122,12 +124,13 @@ header {
 }
 
 
-/*
+
 .image {
-    margin-right: 20px;
+    padding-left: 20px;
     float: left;
 }
-*/
+
+
 footer {
     background-color: gray;
     color: white;
