@@ -4,24 +4,28 @@
   }
  
 
-  .name-logo {
+  /* .name-logo {
     margin-right: 20px;
     position: absolute;
     margin-top: 0;
-    width: 50%;
+    width: 20%;
     background-color: #4aaaa5;
     padding-right: 0;
-}
+} */
 
 .logo {
     background-color: #4aaaa5;
     height: 75px;
-    width: 50%;
+    width: 40%;
     text-align: center;
     margin: 0;
     float: left; 
    
 }  
+
+.links {
+    padding-bottom: 30px;
+}
 
  .content {
     width: 960px;
@@ -68,34 +72,41 @@ p {
 
 li {
     list-style-type: none;
-     margin: 0;
-    padding: 0; 
-    float: right;
+    margin: 0;
+    padding-top: 10px;
+    /* float: right; */
    
 }
 
 .about {
     float: right;
-    display: block;
+    display: inline;
     width: 16%;
+    padding-top: 20px;
+    border-right: 1px solid gainsboro;
 }
 
 .portfolio {
     float: right;
-    display: block;
-    width: 16%
+    display: inline;
+    width: 16%;
+    padding-top: 10px;
+    border-right: 1px solid gainsboro;
 }
 
 .contact {
     float: right;
-    display: block;
+    display: inline;
     width: 16%;
+    border-right: 1px solid gainsboro;
 }
 
 
 li a {
-    display: block;
+    display: inline;
     float: left;
+    text-decoration: none;
+    color: gray;
 } 
 
  
