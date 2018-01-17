@@ -149,3 +149,51 @@ footer {
     border-top: 5px solid #4aaaa5;
     width: 100%;
 }  
+
+/* contact.html specific CSS below */
+ 
+.form {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.name-label {
+    padding: 20px;
+}
+
+.mail-label {
+    padding: 20px;
+}
+
+.message-label {
+    padding: 20px;
+
+}
+
+/* .button {
+    background-color: #4aaaa5;
+    color: white;
+} */ 
+
+
+/*portfolio.html specific CSS below */
+
+.resize {
+    width: 200px;
+    height: 200px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.images {
+   padding-left: 30px;
+}
+
+#hangman {
+    margin-right: 100px;
+}
+
+
+
