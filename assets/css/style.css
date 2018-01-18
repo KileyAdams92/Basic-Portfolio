@@ -15,16 +15,20 @@
 
 .logo {
     background-color: #4aaaa5;
-    height: 75px;
-    width: 40%;
+    height: 76px;
+    width: 20%;
     text-align: center;
     margin: 0;
     float: left; 
+    position: relative;
+    left: 100px;
    
 }  
 
 .links {
     padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
 }
 
  .content {
@@ -82,7 +86,7 @@ li {
 .about {
     float: right;
     display: inline;
-    width: 16%;
+    width: 10%;
     padding-top: 20px;
     border-right: 1px solid gainsboro;
 }
@@ -90,7 +94,7 @@ li {
 .portfolio {
     float: right;
     display: inline;
-    width: 16%;
+    width: 10%;
     padding-top: 10px;
     border-right: 1px solid gainsboro;
 }
@@ -98,7 +102,8 @@ li {
 .contact {
     float: right;
     display: inline;
-    width: 16%;
+    width: 10%;
+    padding-right: 
     border-right: 1px solid gainsboro;
 }
 
@@ -162,6 +167,10 @@ footer {
     width: 100%;
 }  
 
+.connect {
+    
+}
+
 /* contact.html specific CSS below */
  
 .form {
@@ -172,22 +181,31 @@ footer {
 }
 
 .name-label {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 .mail-label {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 .message-label {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
 
 }
 
-/* .button {
-    background-color: #4aaaa5;
-    color: white;
-} */ 
+label, input {
+    display: block;
+}
+
+.button {
+    /* background-color: #4aaaa5;
+    color: white; */
+    padding-top: 15px;
+    padding-left: 20px;
+} 
 
 
 /*portfolio.html specific CSS below */
